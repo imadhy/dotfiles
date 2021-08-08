@@ -29,6 +29,7 @@ alias gs="g switch"
 alias gsc="gs -c"
 
 alias gt="g status"
+alias gtt="g log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
 
 alias gx="g rebase"
 alias gxi="gx -i"
