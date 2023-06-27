@@ -5,7 +5,3 @@ for file in $(
 do
   source "$file"
 done
-
-
-# Load Angular CLI autocompletion.
-source <(ng completion script)
